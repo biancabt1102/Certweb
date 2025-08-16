@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Certweb.exe" version="1.0.0.0" publicKeyToken="7ada183fa4c60c05" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="certweb.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Certweb" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Certweb.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Certweb.exe" size="575976">
+      <assemblyIdentity name="Certweb" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VfaLHPT1xj1yJrkGNke894lVx9836NmKxc9Rm47Euos=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en\Certweb.resources.dll" size="483840">
+      <assemblyIdentity name="Certweb.resources" version="1.0.0.0" language="en" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>v3uBng5pclLlJfnm0cZYq03o10wzMDLxOMS1+Ii1G7s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="711952">
+      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4eJ697B+7t9c5xqSVfBCKBam/FhJpIPGcU4bRyBE+p0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Certweb.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="certweb.ico" size="201104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>68o1hiFvLwO3PX6x0+jLjPU5HfI3Y6WETeE2ELtg0NE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\checklist_7627576.png" size="17778">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+S+cxOvbao/+n15EEcJu66cbkTxjHrHpab9wgSXx2cU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\dashboard_7665559.png" size="21523">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cCC6f8Ivt7d+HNXqMwpLkXEJ1rxTw1IN0dGteJm+mjg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\link_14988506.png" size="18164">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VqNsq/kxuQuERmpGlARKt3F6nwq4d1/c6ehy6Rk4gN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-N2ABC68\Bianca" issuerKeyHash="a00b55e2f6b046eea610fe9e0e1cdb55f935d019" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hDK1FkNNkMwvgzib4KodZT5TANI4Gx0OHd5SK4TucVk=</DigestValue></Reference></SignedInfo><SignatureValue>BRMvS3gaQEPGzV2GxRCUxM+dEpFtvd7M2X4cFVG+/oQ4mQ6iPlAWYlgKVUru+NIvtlWokZUfza+igAAm90nYsUYzxE6y4dbyQGQmHdv1jfbejxGR6n9CavHBth8vBJBeUDBnivZz8xojBmVmYxu08wJar7t0EirXbnOg56joFV4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ugmF3+LL+BdZNEoP74rgLqQEVcVOJKoSiPlzR4spIiZIQ4D1IBameBnYV5Mw/2IRNElYMvVSNw2iirrYAJJhLvCtVpOE/WlUKllgGrZ3ITIrcPDVXhHkndjxEggoSUu7fioL2Fo476skq00yAhj01hFvwIka3bULKKJ/plIjzKE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5971ee842b52de1d0e1d1b38d200533e651daae09b38832fcc904d4316b53284" Description="" Url=""><as:assemblyIdentity name="Certweb.exe" version="1.0.0.0" publicKeyToken="7ada183fa4c60c05" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-N2ABC68\Bianca</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pAEOAjJ8pcecQ7MuW5Cm1CCjeACtD9cmjOyOKOZ6rdM=</DigestValue></Reference></SignedInfo><SignatureValue>abb4IEAsJLaXj4tI1fOQtuwhNaGRAZYa2stvTcupGK9UHwHnZXci1WcYxyDtHpzzA7uTbcC4NtAgvN2cUQ3On3GaaC+eJfkFgKhMeua9w/dgXmPQW5x3vgLim+31Hpwclqxrzql0OCmdU00p94x47YZSwInnVPvBQZo+kD14v7E=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ugmF3+LL+BdZNEoP74rgLqQEVcVOJKoSiPlzR4spIiZIQ4D1IBameBnYV5Mw/2IRNElYMvVSNw2iirrYAJJhLvCtVpOE/WlUKllgGrZ3ITIrcPDVXhHkndjxEggoSUu7fioL2Fo476skq00yAhj01hFvwIka3bULKKJ/plIjzKE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQQn61PwjTY71C8EaGU83H2jANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAE4AMgBBAEIAQwA2ADgAXABCAGkAYQBuAGMAYTAeFw0yNTA4MTYxMjI4NDhaFw0yNjA4MTYxODI4NDhaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0ATgAyAEEAQgBDADYAOABcAEIAaQBhAG4AYwBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6CYXf4sv4F1k0Sg/viuAupARVxU4kqhKI+XNHiykiJkhDgPUgFqZ4GdhXkzD/YhE0SVgy9VI3DaKKutgAkmEu8K1Wk4T9aVQqWWAatnchMitw8NVeEeSd2PESCChJS7t+KgvYWjjvqySrTTICGPTWEW/AiRrdtQsoon+mUiPMoQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIi9lFMlyn4BfYj40we/UVvg8Btg0c/8JOFBOrZjASRGmtHXWMFikXszvTGZdjdC/NHnjMDyLIKnfrbP65/ckpIpi3ndVZfb/rSTOar/iFdIPA6Emukov3M4NEz/5NjMQu7MOS5gCJ2tY0D1wn6ZGxTPf5l7TIWLstUxvf3V7o7a</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
